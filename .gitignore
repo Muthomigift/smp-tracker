@@ -1,0 +1,23 @@
+#file: gitignore
+#python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+#environment variables
+.env
+.env.local
+
+#Data files with sensitive contents
+*.csv
+secrets.json
+
+#os files
+.Ds_store
+thumbs_db
+
+#vs code settings
+.vscode
